@@ -157,14 +157,14 @@ public class Main {
         System.out.println(F3);
     }
 }
-/*
-피보나치 수열은 0과 1로 시작하며 바로 앞의 두 피보나치수의 합이 다음 피보나치수가 된다.
-즉,첫번째항과 두번째항의 합이 세번째 항이되고, 두번째항과 세번째항의 합이 네번째항이 된다.
-수식으로 표현하면 f(n)=f(n-2)+f(n-1)인데 재귀함수로 풀면 중복계산되어 시간이 많이 걸리므로 반복을 이용해서 풀수 있다.
-/*
-```
 
-```java
+// 피보나치 수열은 0과 1로 시작하며 바로 앞의 두 피보나치수의 합이 다음 피보나치수가 된다.
+// 즉,첫번째항과 두번째항의 합이 세번째 항이되고, 두번째항과 세번째항의 합이 네번째항이 된다.
+// 수식으로 표현하면 f(n)=f(n-2)+f(n-1)인데 재귀함수로 풀면 중복계산되어 시간이 많이 걸리므로 반복을 이용해서 풀수 있다.
+
+
+
+java
 //피보나치 수열 -5
 import java.util.Scanner;
 public class Main {
@@ -182,9 +182,9 @@ public class Main {
             return fibo(n-2) + fibo(n - 1);
     }
 }
-```
 
-```java
+
+java
 //홀수
 import java.util.Scanner;
 public class Main {
@@ -214,9 +214,9 @@ public class Main {
 
     }
 }
-```
 
-```java
+
+java
 //벌집
 import java.util.Scanner;
 public class Main {
