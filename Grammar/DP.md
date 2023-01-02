@@ -45,7 +45,7 @@ public class Simple {
 
 위와 같이 메모이제이션을 사용하지 않으면 같은 함수를 계속해서 중복 호출을 하기 때문에 재귀함수로 구현을 하면 **시간복잡도 O(2^n)**을 갖게 된다. 다음 그림과 같이 중복되는 호출로 인해 굉장히 좋지 않은 효율을 갖는 것을 볼 수 있다.
 
-![dp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/429d9f05-8ffa-4569-898b-02bbffef4dc5/Untitled.png)
+![img](https://blog.kakaocdn.net/dn/0YRl3/btrhKLlr9QX/eKlwtKaAqMogyl0zI0LOZk/img.png)
 
 ```
                                                     좀 더 효율적으로 코딩할 방법이 없을까?
@@ -163,7 +163,7 @@ static int fibo(int x) {
 
 피보나치 함수를 예로 들었을 때, 이미 계산된 결과를 저장하면 아래의 색칠된 노드만 계산이 처리되어 프로그램의 작업 처리속도를 크게 향상시킬 수 있다
 
-![dp2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/503931ac-5bc9-4b75-9fe2-c68204ba4193/Untitled.png)
+![img](https://blog.kakaocdn.net/dn/bzzIgA/btrhX03is7C/3bokWk1Bhv9RQKmPXarugK/img.png)
 
 # ***\*동적계획법 (DP) VS 분할정복 (Divide and Conquer)\****
 
@@ -175,7 +175,7 @@ static int fibo(int x) {
 
 하위 문제가 독립적이지 않고 중복이 되는 경우에는 DP의 방식이 분할정복보다는 더 나은 시간복잡도를 가진다. 왜냐하면 분할정복에서는 동일한 하위 문제는 각각 독립적으로 구성되어 있기 때문에 반복적으로 계산이 되지 않기 때문이다.
 
-![dp3](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f06ba1-16ac-46a5-8105-4a1f3d72ca16/Untitled.png)
+![img](https://blog.kakaocdn.net/dn/bPMnE0/btrhVtyolJi/EdU4PSE8KnLs0m8BDuHfq0/img.png)
 
 ```
                                                                    D&C, DP 트리
